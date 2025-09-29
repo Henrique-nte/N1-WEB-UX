@@ -1,9 +1,61 @@
-body {
-    background-image: url(/assets/img/bg.jpg);
-    background-size: cover;
+.navbar .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
 }
 
-.sinners {
+.navbar-nav {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
     display: flex;
-    justify-content: center;
+    gap: 6rem;
+}
+
+.navbar {
+    margin-top: 50px;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+
+.logo {
+    height: 60px;
+    margin-left: 10px;
+}
+
+
+.btn-ticket {
+    background-color: #E13C32;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+
+.btn-ticket:hover {
+    background-color: #ff2e43;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(255, 71, 87, 0.3);
+}
+
+
+.nav-link {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0 5px;
+    border-radius: 3px;
+    transition: all 0.4s;
+}
+
+.nav-link:hover {
+    background-color: #FD5B4C;
+    color: white;
 }
