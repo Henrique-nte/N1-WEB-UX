@@ -174,13 +174,13 @@ section h1 span.left-align {
   min-width: 200px;
 }
 
-.btn-ticket-primary {
+.btn-ticket-primary:hover {
   background-color: #ff2e43 !important;
   transform: translateY(-3px);
   box-shadow: 0 6px 12px rgba(255, 71, 87, 0.4);
 }
 
-.btn-ticket-secondary {
+.btn-ticket-secondary:hover {
   background-color: white !important;
   color: #e13c32 !important;
   transform: translateY(-3px);
