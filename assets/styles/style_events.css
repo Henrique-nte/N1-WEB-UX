@@ -2,6 +2,7 @@
 * {
   box-sizing: border-box;
 }
+
 /* Prevenir scroll horizontal */
 html,
 body {
@@ -145,6 +146,7 @@ body {
   transform: translateY(-2px);
   box-shadow: 0 4px 8px rgba(255, 71, 87, 0.3);
 }
+
 body {
   background-color: black;
 }
