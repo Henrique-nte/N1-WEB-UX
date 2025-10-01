@@ -148,8 +148,8 @@ body {
 }
 
 body {
-  background-image: url(../img/back-ground-home.png);
-  background-color: black;
+  background: url("../img/back-ground-home.png") no-repeat center center fixed;
+  background-size: cover;
 }
 /* Remove scrollbars mas mantém a funcionalidade de scroll */
 body {
