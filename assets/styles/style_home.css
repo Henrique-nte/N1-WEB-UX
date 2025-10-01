@@ -156,6 +156,24 @@ body {
   /* font-family: Arial, Helvetica, sans-serif; */
   overflow-x: hidden;
 }
+/* Remove scrollbars mas mantém a funcionalidade de scroll */
+body {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+body::-webkit-scrollbar {
+  display: none; /* Chrome, Safari and Opera */
+}
+
+html {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
 
 /* H1 Section */
 section {
