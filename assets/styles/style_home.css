@@ -96,7 +96,6 @@ body {
 }
 
 /* H1 */
-/* H1 */
 section {
   display: flex;
   justify-content: center;
@@ -138,8 +137,6 @@ section h1 span.left-align {
     font-size: 2rem;
   }
 }
-
-/* Buttons */
 
 /* Seção dos botões */
 .hero-buttons {
