@@ -104,7 +104,6 @@ body {
   min-height: 100vh;
   font-family: Arial, sans-serif; /* Adicionado fallback de fonte */
 }
-
 /* H1 */
 section {
   display: flex;
@@ -112,12 +111,12 @@ section {
   align-items: center;
   min-height: 30vh;
   text-align: center;
-  margin-top: 60px;
+  margin-top: 100px;
   padding: 0 20px;
 }
 
 section h1 {
-  font-size: 4rem;
+  font-size: 7rem;
   font-weight: 900;
   color: white;
   text-transform: uppercase;
@@ -131,16 +130,20 @@ section h1 span {
   width: 100%;
 }
 
+/* Primeira linha - centralizada */
 section h1 span:nth-child(1) {
   text-align: center;
 }
 
-section h1 span:nth-child(2) {
-  margin-right: 2rem;
+/* Segunda linha - alinhada à esquerda */
+section h1 span.left-align {
+  text-align: center;
 }
 
-section h1 span:nth-child(3) {
+/* Terceira linha - alinhada à direita e vermelha */
+section h1 span.right-align {
   text-align: center;
+  color: #ae0000;
 }
 
 /* Seção dos botões */
