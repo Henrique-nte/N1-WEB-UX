@@ -148,6 +148,7 @@ body {
 }
 
 body {
+  background-image: url(../img/back-ground-home.png);
   background-color: black;
 }
 /* Remove scrollbars mas mantém a funcionalidade de scroll */
