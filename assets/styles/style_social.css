@@ -2,6 +2,7 @@
 * {
   box-sizing: border-box;
 }
+
 /* Prevenir scroll horizontal */
 html,
 body {
@@ -159,12 +160,15 @@ body {
 
 /* Remove scrollbars mas mantém a funcionalidade de scroll */
 body {
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+  -ms-overflow-style: none;
+  /* IE and Edge */
 }
 
 body::-webkit-scrollbar {
-  display: none; /* Chrome, Safari and Opera */
+  display: none;
+  /* Chrome, Safari and Opera */
 }
 
 html {

@@ -211,3 +211,29 @@ h1 {
   flex-wrap: nowrap;
   font-size: 1.5rem;
 }
+
+.tickets {
+
+  background-color: #e13c32;
+  color: white;
+  border: none;
+  padding: clamp(12px, 3vw, 15px) clamp(25px, 5vw, 40px);
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: clamp(1rem, 2vw, 1.3rem);
+  text-transform: uppercase;
+  transition: all 0.3s;
+  min-width: min(200px, 80vw);
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+
+}
+
+.tickets:hover {
+  background-color: white;
+  color: #e13c32;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(255, 255, 255, 0.3);
+}
