@@ -150,7 +150,7 @@ body {
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
 
 body {
-  background-image: url(../img/Halloween.jpg);
+  background-image: url(../img/Halloween.jpg) no-repeat center center fixed;
   background-size: cover;
   font-family: "Playfair Display", sans-serif;
 }
@@ -179,4 +179,20 @@ html {
 
 html::-webkit-scrollbar {
   display: none;
+}
+
+#eventos {
+  color: #e13b32cc;
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+
+}
+
+#apicultores {
+  width: 250px;
+  height: 300px;
+  object-fit: cover;
+
 }
