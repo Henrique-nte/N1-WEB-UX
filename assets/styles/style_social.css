@@ -233,7 +233,7 @@ section h1 span.right-align {
 .btn-ticket-one {
   background-color: #962FBF;
   color: white;
-  border: none;
+  border: 2px solid white;
   padding: clamp(12px, 3vw, 15px) clamp(25px, 5vw, 40px);
   border-radius: 8px;
   font-weight: bold;
@@ -289,14 +289,14 @@ section h1 span.right-align {
 
 .btn-ticket-two:hover {
   background-color: #3174c6;
-  color: #e13c32;
+  /* color: #e13c32; */
   transform: translateY(-3px);
   box-shadow: 0 6px 12px rgba(255, 255, 255, 0.3);
 }
 
 .btn-ticket-three:hover {
   background-color: white;
-  color: #e13c32;
+  color: black;
   transform: translateY(-3px);
   box-shadow: 0 6px 12px rgba(255, 255, 255, 0.3);
 }
