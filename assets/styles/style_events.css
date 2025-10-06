@@ -150,7 +150,8 @@ body {
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
 
 body {
-  background-image: url(../img/Halloween.jpg) no-repeat center center fixed;
+  background-image: url(../img/Halloween.jpg);
+  background-repeat: no-repeat;
   background-size: cover;
   font-family: "Playfair Display", sans-serif;
 }
@@ -181,11 +182,23 @@ html::-webkit-scrollbar {
   display: none;
 }
 
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 20vh;
+  text-align: center;
+  margin-top: 50px;
+  padding: 0 20px;
+  width: 100%;
+  gap: 55px;
+}
+
 #eventos {
-  color: #e13b32cc;
+  color: #E13C32;
   font-family: 'Playfair Display', sans-serif;
   font-size: 40px;
-  font-weight: 500;
+  font-weight: 900;
   text-align: center;
 
 }
