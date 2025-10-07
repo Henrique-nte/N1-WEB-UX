@@ -138,7 +138,7 @@ body {
   font-family: "Playfair Display", sans-serif;
 }
 
-/* Remove scrollbars */
+/* REMOVER SCROLLBARS PARA DIFERENTES NAVEGADORES */
 body {
   scrollbar-width: none;
   /* Firefox */
@@ -160,7 +160,10 @@ html::-webkit-scrollbar {
   display: none;
 }
 
-/* Section */
+
+/* == CSS DO HOME == */
+
+/* SECTION */
 section {
   display: flex;
   justify-content: center;
