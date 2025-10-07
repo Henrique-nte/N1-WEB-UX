@@ -155,7 +155,7 @@ body {
   font-family: "Playfair Display", sans-serif;
 }
 
-/* Remove scrollbars mas mantém a funcionalidade de scroll */
+/* Remove scrollbars */
 body {
   scrollbar-width: none;
   /* Firefox */
@@ -177,7 +177,7 @@ html::-webkit-scrollbar {
   display: none;
 }
 
-/* H1 Section */
+/* Section */
 section {
   display: flex;
   justify-content: center;
@@ -194,10 +194,10 @@ section h1 {
   font-weight: 900;
   color: white;
   text-transform: uppercase;
-  line-height: 1.3;
+  line-height: 1.4;
   margin: 0;
   width: 100%;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
 section h1 span {
