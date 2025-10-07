@@ -137,17 +137,17 @@ body {
   font-family: "Playfair Display", sans-serif;
 }
 
-/* Remove scrollbars */
+/* REMOVER SCROLLBARS PARA DIFERENTES NAVEGADORES */
 body {
   scrollbar-width: none;
   /* Firefox */
   -ms-overflow-style: none;
-  /* IE and Edge */
+  /* IE e Edge */
 }
 
 body::-webkit-scrollbar {
   display: none;
-  /* Chrome, Safari and Opera */
+  /* Chrome, Safari e Opera */
 }
 
 html {
