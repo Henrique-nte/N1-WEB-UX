@@ -1,9 +1,9 @@
-/* Reset e configurações globais */
+/* Configs */
 * {
   box-sizing: border-box;
 }
 
-/* Prevenir scroll horizontal */
+/* Tirar scroll horizontal */
 html,
 body {
   max-width: 100%;
@@ -101,7 +101,6 @@ body {
   display: inline-block;
 }
 
-
 .nav-link:hover {
   background-color: #fd5b4c;
   color: black;
@@ -160,7 +159,6 @@ html::-webkit-scrollbar {
   display: none;
 }
 
-
 /* CSS SOCIAL */
 section {
   display: flex;
@@ -200,7 +198,6 @@ section h1 span.two {
 
 section h1 span.three {
   text-align: center;
-
 }
 
 /* Seção dos botões */
@@ -214,7 +211,14 @@ section h1 span.three {
 }
 
 .btn-ticket-one {
-  background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+  background: linear-gradient(
+    45deg,
+    #feda75,
+    #fa7e1e,
+    #d62976,
+    #962fbf,
+    #4f5bd5
+  );
   color: white;
   border: 2px solid white;
   padding: clamp(12px, 3vw, 15px) clamp(25px, 5vw, 40px);
@@ -239,7 +243,7 @@ section h1 span.three {
 }
 
 .btn-ticket-two {
-  background-color: #1778F2;
+  background-color: #1778f2;
   color: white;
   border: 2px solid white;
   padding: clamp(12px, 3vw, 15px) clamp(25px, 5vw, 40px);

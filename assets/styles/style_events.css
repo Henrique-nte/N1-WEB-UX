@@ -1,9 +1,9 @@
-/* Reset e configurações globais */
+/* Configs */
 * {
   box-sizing: border-box;
 }
 
-/* Prevenir scroll horizontal */
+/* Tirar scroll horizontal */
 html,
 body {
   max-width: 100%;
