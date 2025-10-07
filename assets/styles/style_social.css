@@ -160,7 +160,8 @@ html::-webkit-scrollbar {
   display: none;
 }
 
-/* H1 Section */
+
+/* CSS SOCIAL */
 section {
   display: flex;
   justify-content: center;
@@ -188,16 +189,16 @@ section h1 span {
   width: 100%;
 }
 
-section h1 span:nth-child(1) {
+section h1 span.one {
   text-align: center;
 }
 
-section h1 span.left-align {
+section h1 span.two {
   text-align: center;
   color: #ae0000;
 }
 
-section h1 span.right-align {
+section h1 span.three {
   text-align: center;
 
 }
