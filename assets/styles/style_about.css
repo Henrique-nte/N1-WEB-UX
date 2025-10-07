@@ -215,23 +215,23 @@ html::-webkit-scrollbar {
 }
 
 .texto {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   text-align: justify;
   color: #ddd;
-  line-height: 1.7;
+  line-height: 1.2;
 }
 
 /* IMAGEM PRINCIPAL */
 .foto-about {
   width: 100%;
-  max-width: 600px;
+  max-width: 800px;
   border-radius: 10px;
   box-shadow: 0 0 25px rgba(255, 0, 0, 0.2);
-  transition: transform 0.4s ease;
+  transition: transform 0.2s ease;
 }
 
 .foto-about:hover {
-  transform: scale(1.03);
+  transform: scale(1.01);
 }
 
 /* LOCALIZAÇÃO */
@@ -245,7 +245,7 @@ html::-webkit-scrollbar {
 }
 
 .location .title {
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 .cep {
