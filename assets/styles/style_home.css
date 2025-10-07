@@ -133,7 +133,7 @@ body {
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
 
 body {
-  background: url("../img/back-ground-home.png") no-repeat center center fixed;
+  background: url("../img/BG-HOME.png") no-repeat center center fixed;
   background-size: cover;
   font-family: "Playfair Display", sans-serif;
 }
