@@ -245,6 +245,11 @@ html::-webkit-scrollbar {
   text-align: center;
 }
 
+.cep a {
+  text-decoration: none;
+  color: #e13c32;
+}
+
 .foto-maps {
   width: 100%;
   max-width: 900px;
