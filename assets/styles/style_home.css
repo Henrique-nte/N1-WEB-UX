@@ -21,7 +21,7 @@ body {
   width: 100%;
 }
 
-/* Container flexível */
+/* Container */
 .navbar .container-fluid {
   display: flex;
   justify-content: space-between;
@@ -118,11 +118,11 @@ body {
   width: 80%;
 }
 
-.nav-link:hover {
+/* .nav-link:hover {
   background-color: #fd5b4c;
   color: black;
   transform: translateY(-2px);
-}
+} */
 
 /* Botão de ticket */
 .btn-ticket {

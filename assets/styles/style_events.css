@@ -21,7 +21,7 @@ body {
   width: 100%;
 }
 
-/* Container flexível */
+/* Container */
 .navbar .container-fluid {
   display: flex;
   justify-content: space-between;
@@ -118,11 +118,11 @@ body {
   width: 80%;
 }
 
-.nav-link:hover {
+/* .nav-link:hover {
   background-color: #fd5b4c;
   color: black;
   transform: translateY(-2px);
-}
+} */
 
 /* Botão de ticket */
 .btn-ticket {
@@ -155,21 +155,17 @@ body {
   font-family: "Playfair Display", sans-serif;
 }
 
-body {
-  background-color: black;
-}
-
 /* Remove scrollbars */
 body {
   scrollbar-width: none;
   /* Firefox */
   -ms-overflow-style: none;
-  /* IE e Edge */
+  /* IE and Edge */
 }
 
 body::-webkit-scrollbar {
   display: none;
-  /* Chrome, Safari e Opera */
+  /* Chrome, Safari and Opera */
 }
 
 html {
@@ -181,22 +177,21 @@ html::-webkit-scrollbar {
   display: none;
 }
 
-/* Events */
 
+/* Events */
 h1 {
-  color: #e13c32;
+  color: #ffffff;
   font-family: "Playfair Display", sans-serif;
-  font-size: 40px;
+  font-size: 4rem;
   font-weight: 900;
   text-align: center;
-
 }
 
 .eventos {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 60px;
+  gap: 50px;
   padding: 40px;
 }
 
