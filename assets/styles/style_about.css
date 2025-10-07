@@ -8,25 +8,6 @@ html,
 body {
   max-width: 100%;
   overflow-x: hidden;
-  background-color: black;
-  scrollbar-width: none;
-  /* Firefox */
-  -ms-overflow-style: none;
-  /* IE and Edge */
-}
-
-html::-webkit-scrollbar,
-body::-webkit-scrollbar {
-  display: none;
-  /* Chrome, Safari, Opera */
-}
-
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
-
-body {
-  font-family: "Playfair Display", sans-serif;
-  background-size: cover;
-  height: 100vh;
 }
 
 /* Container principal da navbar */
@@ -48,9 +29,9 @@ body {
   position: relative;
   flex-wrap: wrap;
   min-height: 80px;
+  background-color: transparent;
   padding: 0 20px;
   width: 100%;
-  background-color: transparent;
 }
 
 /* Brand/Logo */
@@ -98,9 +79,9 @@ body {
   align-items: center;
   margin: 0;
   padding: 0;
+  background-color: transparent;
   list-style: none;
   flex-wrap: wrap;
-  background-color: transparent;
 }
 
 /* Links de navegação */
@@ -166,84 +147,140 @@ body {
   box-shadow: 0 4px 8px rgba(255, 71, 87, 0.3);
 }
 
-/* Seções */
-header {
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+
+body {
   background-color: black;
+  font-family: "Playfair Display", sans-serif;
 }
 
-section {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
-  padding: 100px 150px;
-  text-align: left;
+/* Remove scrollbars mas mantém a funcionalidade de scroll */
+body {
+  scrollbar-width: none;
+  /* Firefox */
+  -ms-overflow-style: none;
+  /* IE and Edge */
 }
 
-/* Conteúdo */
-.about-us {
-  background-color: black;
-  color: rgb(202, 49, 22);
-  font-size: 32px;
-  width: 490px;
+body::-webkit-scrollbar {
+  display: none;
+  /* Chrome, Safari and Opera */
 }
 
-.title {
-  font-size: 95px;
-  width: 510px;
-  color: white;
+html {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
 
-p {
-  margin: 0;
-  border: 50px;
+html::-webkit-scrollbar {
+  display: none;
 }
 
-.texto {
-  font-size: 25px;
-  width: 510px;
-  text-align: justify !important;
-}
-
+/* CONTAINER PRINCIPAL */
 .container {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
-  padding: 100px 140px;
-  color: white;
-}
-
-.conteudo {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  flex-direction: column;
-  color: white;
-}
-
-.foto-about {
-  display: flex;
-  align-items: row;
-  width: 75vh;
-}
-
-/* Localização */
-.location {
-  display: flex;
   align-items: center;
-  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 100px 5%;
+}
+
+/* SEÇÃO DE CONTEÚDO */
+.conteudo {
+  max-width: 600px;
+  display: flex;
   flex-direction: column;
+  /* gap: 10px; */
+}
+
+.about-us {
+  /* background-color: #000; */
+  color: #ca3116;
+  font-size: 2rem;
+  /* letter-spacing: 2px; */
+  /* border-left: 5px solid #ca3116; */
+  /* padding-left: 15px; */
+  /* font-weight: bold; */
+}
+
+.title {
+  font-size: 4.5rem;
+  color: #fff;
+  line-height: 1.1;
+}
+
+.title strong {
+  color: #ca3116;
+}
+
+.texto {
+  font-size: 1.2rem;
+  text-align: justify;
+  color: #ddd;
+  line-height: 1.7;
+}
+
+/* IMAGEM PRINCIPAL */
+.foto-about {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 0 25px rgba(255, 0, 0, 0.2);
+  transition: transform 0.4s ease;
+}
+
+.foto-about:hover {
+  transform: scale(1.03);
+}
+
+/* LOCALIZAÇÃO */
+.location {
+  text-align: center;
+  padding: 80px 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.location .title {
+  font-size: 3rem;
 }
 
 .cep {
   color: #e13c32;
-  margin: 60px 0 15px;
-  font-size: 25px;
-  text-align: left;
-  width: 900px;
+  font-size: 1.3rem;
+  max-width: 900px;
+  text-align: center;
 }
 
 .foto-maps {
-  width: 900px;
-  height: 400px;
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 25px rgba(255, 0, 0, 0.2);
+}
+
+/* RESPONSIVIDADE */
+@media (max-width: 900px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+    padding: 60px 5%;
+  }
+
+  .title {
+    font-size: 2.8rem;
+  }
+
+  .foto-about {
+    max-width: 100%;
+  }
+
+  .cep {
+    font-size: 1.1rem;
+    width: 100%;
+  }
 }
