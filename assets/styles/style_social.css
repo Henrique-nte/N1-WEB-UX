@@ -101,28 +101,11 @@ body {
   display: inline-block;
 }
 
-.nav-link::after {
-  content: "";
-  position: absolute;
-  width: 0;
-  height: 2px;
-  bottom: 0;
-  left: 50%;
-  background-color: #fd5b4c;
-  transition: all 0.3s ease;
-  transform: translateX(-50%);
-}
 
-.nav-link:hover::after,
-.nav-link:focus::after {
-  width: 80%;
-}
-
-/* .nav-link:hover {
+.nav-link:hover {
   background-color: #fd5b4c;
   color: black;
-  transform: translateY(-2px);
-} */
+}
 
 /* Botão de ticket */
 .btn-ticket {
