@@ -101,7 +101,6 @@ body {
   display: inline-block;
 }
 
-
 .nav-link:hover {
   background-color: #fd5b4c;
   color: black;
@@ -159,7 +158,6 @@ html {
 html::-webkit-scrollbar {
   display: none;
 }
-
 
 /* CSS EVENTS */
 
@@ -228,7 +226,6 @@ h1 {
   transition: all 0.3s;
   cursor: pointer;
 }
-
 
 .tickets:hover {
   background-color: white;
