@@ -230,7 +230,7 @@ section h1 span.right-align {
 }
 
 .btn-ticket-one {
-  background-color: #962FBF;
+  background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
   color: white;
   border: 2px solid white;
   padding: clamp(12px, 3vw, 15px) clamp(25px, 5vw, 40px);
@@ -244,6 +244,14 @@ section h1 span.right-align {
   text-decoration: none;
   display: inline-block;
   text-align: center;
+  background-size: 200%;
+  background-position: left;
+}
+
+.btn-ticket-one:hover {
+  background-position: right;
+  transform: scale(1.05);
+  transform: translateY(-3px);
 }
 
 .btn-ticket-two {
@@ -280,11 +288,11 @@ section h1 span.right-align {
   text-align: center;
 }
 
-.btn-ticket-one:hover {
+/* .btn-ticket-one:hover {
   background-color: #9742b9;
   transform: translateY(-3px);
   box-shadow: 0 6px 12px rgba(255, 71, 87, 0.4);
-}
+} */
 
 .btn-ticket-two:hover {
   background-color: #3174c6;
