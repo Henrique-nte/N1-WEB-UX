@@ -150,8 +150,7 @@ body {
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
 
 body {
-  background-image: url(../img/Halloween.jpg);
-  background-repeat: no-repeat;
+  background: url("../img/Halloween.jpg") no-repeat center center fixed;
   background-size: cover;
   font-family: "Playfair Display", sans-serif;
 }
@@ -182,13 +181,15 @@ html::-webkit-scrollbar {
   display: none;
 }
 
+/* Events */
+
 h1 {
   color: #e13c32;
   font-family: "Playfair Display", sans-serif;
   font-size: 40px;
   font-weight: 900;
   text-align: center;
-  margin-top: 40px;
+
 }
 
 .eventos {
@@ -200,22 +201,22 @@ h1 {
 }
 
 .evento {
-  background-color: #580400;
+  background-color: #9a1a13;
   border-radius: 12px;
   overflow: hidden;
-  width: 350px;
+  width: 450px;
   height: 480px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   text-align: center;
-  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .evento:hover {
   transform: translateY(-5px);
-  box-shadow: 0 6px 15px rgba(255, 255, 255, 0.2);
+  box-shadow: 0 7px 16px rgba(255, 255, 255, 0.2);
 }
 
 .evento img {
@@ -230,7 +231,8 @@ h1 {
 
 .evento p {
   color: white;
-  font-size: 1.1rem;
+  font-weight: 600;
+  font-size: 1.2rem;
   margin-bottom: 20px;
   min-height: 70px;
 }
@@ -247,6 +249,7 @@ h1 {
   transition: all 0.3s;
   cursor: pointer;
 }
+
 
 .tickets:hover {
   background-color: white;
